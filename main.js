@@ -37,4 +37,7 @@ const messageFactory = () =>{
 }
 
 const message = messageFactory();
-message.createRandomMessage(messageComponets);
+for(let i = 0; i < 15; i++){
+  message.createRandomMessage(messageComponets);
+  console.log(message.message);
+}
